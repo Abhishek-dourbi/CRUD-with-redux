@@ -1,0 +1,23 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ8Q7jti8WL1sOShM500SOgb69rSgSYw6JVRvBkbi6Qvb8KGx_e");
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: flex-start;
+    margin-top: 50px;
+    opacity: 1;
+}
+
+.vertical-line {
+    border: white solid 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

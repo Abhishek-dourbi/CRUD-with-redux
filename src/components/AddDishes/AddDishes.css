@@ -1,0 +1,25 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    border: #aaa solid 2px;
+    border-radius: 6px;
+    padding: 10px 80px 40px 80px;
+    margin-top: 20px;
+    background-color: lightsteelblue;
+    opacity: 0.9;
+}
+
+.textInput {
+    margin-bottom: 10px;
+    height: 20px;
+    border-radius: 6px;
+}
+
+.addBtn {
+    background-color: rebeccapurple;
+    border-radius: 6px;
+    color: aliceblue;
+    font-size: 14px;
+    padding: 5px 0;
+    margin: 10px 0;
+}

@@ -1,0 +1,9 @@
+.header-container {
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+}
+
+.header-text {
+    color: aliceblue;
+}

@@ -1,0 +1,76 @@
+.no-data {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.show-dishes-container {
+    width: 200px;
+}
+
+.show-dishes-heading {
+    text-align: center;
+    color: white;
+}
+
+.list-item {
+    min-width: 100px;
+    word-break: break-all;
+    margin: 2px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.list-item-type {
+    margin: 2px 10px;
+    font-size: 14px;
+    min-width: 100px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.list-container {
+    border: #aaa solid 2px;
+    padding: 2px 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightsteelblue;
+    opacity: 0.9;
+}
+
+.edit-button {
+    background-color: blue;
+    color: aliceblue;
+    height: fit-content;
+    padding: 2px 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+.delete-button {
+    background-color: red;
+    color: aliceblue;
+    height: fit-content;
+    padding: 2px 10px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+.textInput {
+    margin-bottom: 10px;
+    height: 20px;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.radio {
+    margin-bottom: 10px;
+}
