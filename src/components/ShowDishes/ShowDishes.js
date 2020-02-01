@@ -34,8 +34,9 @@ const RenderElement = ({ isEdit, currentIndex, ele, onChangeDish, index }) => {
 const ShowDishesList = (props) => {
     const [isEdit, setIsEdit] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(null);
-    const [dishProp, setDishProp] = useState({});
+    const [dishProp, setDishProp] = useState({name: '', dishType: ''});
     const editDish = (ele, index) => {
+        setDishProp(ele);
         setIsEdit(true);
         setCurrentIndex(index);
     }
